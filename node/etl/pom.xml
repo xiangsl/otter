@@ -58,6 +58,8 @@
 		<dependency>
 			<groupId>com.oracle</groupId>
 			<artifactId>ojdbc6</artifactId>
+			<scope>system</scope>
+			<systemPath>C:/libs/ojdbc6-11.2.0.3.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -86,11 +88,6 @@
 		  <artifactId>jetty-http</artifactId>
 		</dependency>
 		<!-- test dependency -->
-		<dependency>
-			<groupId>org.jtester</groupId>
-			<artifactId>jtester</artifactId>
-			<scope>test</scope>
-		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
